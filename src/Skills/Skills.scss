@@ -1,0 +1,17 @@
+.skills-container {
+  padding: 8px;
+  min-width: 250px;
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    .skill {
+      display: inline-flex;
+      justify-content: space-between;
+      text-align: left;
+      span {
+        display: block;
+      }
+    }
+  }
+}
